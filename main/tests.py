@@ -32,7 +32,6 @@ class PlayerFormTest(LiveServerTestCase):
     #check result; page source looks at entire html document
     assert 'Lebron James' in selenium.page_source
 
-
 class TeamFormTest(LiveServerTestCase):
   def testform(self):
     selenium = webdriver.Chrome()
