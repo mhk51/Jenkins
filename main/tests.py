@@ -9,7 +9,6 @@ from selenium.webdriver.common.keys import Keys
 # Create your tests here.
 class PlayerFormTest(LiveServerTestCase):
 
-
   def testform(self):
     selenium = webdriver.Chrome()
     #Choose your url to visit
